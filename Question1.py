@@ -83,8 +83,9 @@ fulltable['Death toll'] = fulltable['Death toll'].apply(lambda x: convertdeathto
 # make a scatter plot, with color for the type of event
 sns.scatterplot(data = fulltable, x='Year', y='Death toll', hue = 'Type')
 
-#add title
+# add title
 plt.suptitle('Death Toll of Natural Disasters in the 20th and 21st centuries')
 
+# show the plot
 plt.show()
 
